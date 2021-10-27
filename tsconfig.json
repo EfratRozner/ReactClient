@@ -21,6 +21,6 @@
     "jsx": "react-jsx"
   },
   "include": [
-    "src", "f:/MYAPP/src/About.js", "f:/MYAPP/src/about.js"
+    "src", "f:/MYAPP/src/About.js", "f:/MYAPP/src/about.js", "f:/newMyapp/my-app/src/component/Product.js", "f:/newMyapp/my-app/src/component/IKEA.js", "f:/newMyapp/my-app/src/component/logIN.js"
   ]
 }

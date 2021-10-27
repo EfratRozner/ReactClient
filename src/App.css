@@ -2,73 +2,53 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+body{
+  direction: rtl;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.app p {
+  color:red;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.dis {
+  color: #34ac89;
+  font-size: small;
 }
-
-.App-link {
-  color: #61dafb;
+.image{
+  width: 40px;
+      height: 40px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.table-striped > tbody > tr:nth-of-type(odd) > * {
+  --bs-table-accent-bg: rgb(255 82 0 / 65%) !important;
+  
 }
-.content{
-
-  flex-direction: row; box-sizing: border-box; display: flex; place-content: flex-end flex-start; align-items: flex-end; 
+.th{
+     border-color: black !important; 
 }
-.big{  
- margin-left: 12px;
-}
-.text{
-  font-size: 16px;
-  line-height: 22px;
-
-}
-.plus{
-  flex-direction: row; box-sizing: border-box; display: flex; place-content: center; align-items: center;
-  background-color: #2f5175;
-  width: 136px;
-  height: 136px;
-  border-radius: 50%;
-  border: none
-
-}
-.plusElement{
-  color: #ffffff;
-  vertical-align: middle;
-  vertical-align: middle;background-repeat: no-repeat;
-  display: inline-block;
-  fill: currentColor;
-  font-size: 100px;
-  align-self: auto;
-
-  width: 60px;
-
-}
-#hiddenm{
+.hidden{
   display: none;
+}
+.btn-primary {
+  color: #000 !important;
+  background-color: #e9e8e8 !important;
+  border-color: #e9e8e8 !important;
+}
+.background{
+background-color: #ffb18c;
+border: none;
+margin-left: 70px;
+}
+.nav {
+height: 60px;
+background-color: #05345d;
+}
+.titel{
+  color: #ffffff;
+  text-align: center;
+  margin: auto;
+  font-weight: bold;
+}
+.discount{
+  background-color: red;
 }
